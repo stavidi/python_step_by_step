@@ -1,10 +1,12 @@
+**Книга в разработке и пишется не по порядку, а по мере проведения уроков или подготовки к занятиям**
+
 # Введение
 
-Эта книга описывает набор уроков для экспресс-курса по питону. Курс состоит из описания синтаксиса и матпакетов. Эта книга - первая часть курса - описание синтаксиса.
+Эта книга описывает набор уроков для студентов 1 курса МФТИ, изучающих русский язык как иностранный.
 
-Предполагается знание одного из функциональных языков программирования и принципов ООП.
+Курс дает базовый уровень владения языком и не требует знания языков программирования. Возможно 
 
-Если нужно подробнее проработать тему, то есть курс Основы Python и Python как первый язык программирования. \(Поставить ссылки, когда книги будут созданы.\)
+[https://www.gitbook.com/book/tatyderb/python-express-course/details](Продвинутый курс языка Python) - описание другого курса, который предполагает знание хотя бы одного языка программирования, темы проходятся быстрее и рассматриваются глубже.
 
 ## Почему Python
 
@@ -30,12 +32,6 @@ Notebook - в них будем писать математические про
 
 ## Дополнительные источники (с комментариями)
 
-* **Марк Саммерфилд "Программирование на Python 3. Подробное руководство"** (Programming in Python 3. A Complete Introduction to the Python Language by Mark Summerfield). - Действительно подробное руководство. Курс во многом основан на его книге.
-* A Byte of Python (Russian) by Swaroop C H (Translated by Vladimir Smolyar)
-* Лутц М. Изучаем Питон. (Mark Lutz. Learning Python) - O'Reilly
-* Python Cookbook, 3rd Edition by Brian K. Jones, David Beazley - O'Reilly
-
-
 * Think Python How to Think Like a Computer Scientist by Allen Downey - рекомендую читать, если изучаете первый язык программирования.
 * LEARN PYTHON THE HARD WAY A Very Simple Introduction to the Terrifyingly Beautiful World of Computers and Code by Zed A. Shaw (тут учат через упражнения, рекомендую).
 
@@ -44,6 +40,12 @@ Notebook - в них будем писать математические про
 * pythontutor.ru - питон с нуля (рекомендую для начинающих). Авторы сайта преподают программирование умным школьникам. Система визуализации кода и автоматической проверки задачи. Много задач. Только первые шаги в питоне. Тут можно изучать питон как первый язык программирования.
 После него обязательно читать Саммерфилда. Или в параллель читать Think Python, ибо некоторые предлагаемые конструкции не python-way.
 
-* Что читать дальше
-  * **Марк Саммерфилд Python in Practice** - паттерны ООП на питоне
-  * [Python 3 patterns, recipes and idioms](/http://python-3-patterns-idioms-test.readthedocs.io/en/latest/PatternConcept.html)
+* Что читать дальше:
+    * **Марк Саммерфилд "Программирование на Python 3. Подробное руководство"** (Programming in Python 3. A Complete Introduction to the Python Language by Mark Summerfield). - Действительно подробное руководство. Курс во многом основан на его книге.
+    * A Byte of Python (Russian) by Swaroop C H (Translated by Vladimir Smolyar)
+    * Лутц М. Изучаем Питон. (Mark Lutz. Learning Python) - O'Reilly
+    * Python Cookbook, 3rd Edition by Brian K. Jones, David Beazley - O'Reilly
+
+
+    * **Марк Саммерфилд Python in Practice** - паттерны ООП на питоне
+    * [Python 3 patterns, recipes and idioms](/http://python-3-patterns-idioms-test.readthedocs.io/en/latest/PatternConcept.html)
