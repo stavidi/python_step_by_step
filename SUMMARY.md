@@ -11,5 +11,5 @@
   * Множества set
   * Кортежи tuple
   * [Словари dict](chapter_seq/7-dict.md)
-  * Сортировка
+  * [Сортировка](chapter_seq/8-sort.md)
 * ООП  
