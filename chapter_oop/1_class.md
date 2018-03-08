@@ -239,6 +239,13 @@ s1 = Segment1(-3.5, 7)      # вызывается __init__(-3.5, 7)
 {'__module__': '__main__', '__doc__': 'Класс Segment1 описывает отрезки на оси Х', '__init__': <function Segment1.__init__ at 0xffd75d68>, '__str__': <function Segment1.__str__ at 0xffd75d20>, 'length': <function Segment1.length at 0xffd75cd8>, 'move': <function Segment1.move at 0xffd75c90>, '__dict__': <attribute '__dict__' of 'Segment1' objects>, '__weakref__': <attribute '__weakref__' of 'Segment1' objects>}
 ```
 
+**dir()** - какие переменные и функции доступны для объекта
+```python
+>>> a = [1, 2, 3]
+>>> dir(a)
+['__add__', '__class__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+```
+
 # Заключение
 
 * Термины:
@@ -261,7 +268,13 @@ s1 = Segment1(-3.5, 7)      # вызывается __init__(-3.5, 7)
   * s1.start - по ссылке s1 на объект к полю start  
   * self.length() - изнутри этого же объекта к функции объекта length
   * s1.length() - по ссылке s1 на объект к функции объекта length
-
+* Встроенные переменные и функции
+  * `type(s1)` - тип объекта, на который ссылается переменная s1
+  * `id(s1)` - идентификатор этого объекта
+  * `a is b` - переменные a и b ссылаются на один и тот же объект? `id(a) == id(b)` 
+  * `dir(s1)` - какие переменные и функции доступны для объекта
+  * `s1.__dict__` - какие переменные содержит объект
+  * `Segment1.__dict__` - какие методы содержит класс
 
 # Задачи
 
