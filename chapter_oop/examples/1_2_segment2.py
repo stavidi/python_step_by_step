@@ -69,20 +69,34 @@ class Segment2(object):
     def left(self):
         return self.start.x
         
+def read_segment2(str):
+    x1, y1, x2, y2 = map(int, str.split())
+    return Segment2(Point(x1, y1), Point(x2, y2))
+
 '''Дан список отрезков по 1 отрезку на строку в формате x1 y1 x2 y2 (целые числа через пробел). 
 Напечатать эти отрезки, выровненные по левому краю.'''
+
+def alignt_left(a):
+    left0 = min([s.left() for s in a])
+
+    for s in a:
+        dir = Direction(dx = s.left() - left0)
+        s.move(dir)
+        print(s)
+
+def move_to_zero(a):
+    zero = Point(0, 0)
+    for s in a:
+        dir = zero.dir(s.start)
+        print(s)
+        s.move(dir)
+        print(s)
 
 import sys
 
 a = []
 for str in sys.stdin:
-    x1, y1, x2, y2 = map(int, str.split())
-    s = Segment2(Point(x1, y1), Point(x2, y2))
+    s = read_segment2(str)
     a.append(s)
     
-left0 = min([s.left() for s in a])
-
-for s in a:
-    dir = Direction(dx = s.left() - left0)
-    s.move(dir)
-    print(s)
+move_to_zero(a)
