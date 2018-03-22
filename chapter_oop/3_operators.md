@@ -39,6 +39,14 @@ class Point(object):
     def __eq__(self, other):
         return self.x == other.x and self.y == other.y
         
+    def __lt__(self, other):
+        """ Меньше та точка, у которой меньше х. При одинаковых x, та, у которой меньше y."""
+        if self.x == other.x:
+            return self.y < other.y
+        return self.x < other.x
+    
+    # другие функции класса: move, dir, dist...
+    
 # Тестируем функции класса:
 def test():
     p0 = Point(3, 5)
