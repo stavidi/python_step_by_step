@@ -32,20 +32,30 @@ if __name__ == '__main__':
     print('p3=', p3)       # 3 1.17
     
     print('p0 == p1', p0 == p1) # True
+    assert(p0 == p1)
     print('p1 == p2', p1 == p2) # False
+    assert(not p1 == p2)
     
     print('p0 != p1', p0 != p1) # False
+    assert(not(p0 != p1))
     print('p1 != p2', p1 != p2) # True
+    assert(p1 != p2)
     
     print('p2 < p1', p2 < p1)   # True
+    assert(p2 < p1)
     print('p1 < p2', p1 < p2)   # False
+    assert(not(p1 < p2))
 
     print('p3 < p1', p3 < p1)   # True
+    assert(p3 < p1)
     print('p1 < p3', p1 < p3)   # False
+    assert(not (p1 < p3))
     
     a = [p0, p1, p2, p3]
     pmin = min(a)
     print('pmin =', pmin)
+    assert(p2 == pmin)
     
     b = sorted(a)
     print(b)
+    assert(b == [p2, p3, p0, p1])
