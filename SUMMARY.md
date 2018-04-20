@@ -16,5 +16,8 @@
   * [Объекты и классы](chapter_oop/1_class.md)
   * [Композиция](chapter_oop/2_composition.md)
   * [Перегрузка операторов](chapter_oop/3_operators.md)
+  * [Контрольная работа](chapter_oop/3_tasks.md)
   * [Переменные класса и статические методы](chapter_oop/4_staticmethod.md)
+  * [Статические методы. Задачи](chapter_oop/4_tasks.md)
+  * [Задачи - черновики](chapter_oop/todo_tasks.md)
   
