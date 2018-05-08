@@ -12,6 +12,7 @@
   * Кортежи tuple
   * [Словари dict](chapter_seq/7-dict.md)
   * [Сортировка](chapter_seq/8-sort.md)
+  * [Файлы](chapter_seq/9-file.md)
 * [Объектно-ориентированное программирование](chapter_oop/README.md)
   * [Объекты и классы](chapter_oop/1_class.md)
   * [Композиция](chapter_oop/2_composition.md)
@@ -19,5 +20,6 @@
   * [Контрольная работа](chapter_oop/3_tasks.md)
   * [Переменные класса и статические методы](chapter_oop/4_staticmethod.md)
   * [Статические методы. Задачи](chapter_oop/4_tasks.md)
+  * [Наследование](chapter_oop/5_inheritance.md)
   * [Задачи - черновики](chapter_oop/todo_tasks.md)
   
