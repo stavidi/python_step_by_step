@@ -2,8 +2,8 @@
 
 ## Источники
 
-* (Google for Education / Python Course / Sorting)[https://developers.google.com/edu/python/sorting]
-* (Sorting HowTo)[https://docs.python.org/3/howto/sorting.html]
+* [Google for Education / Python Course / Sorting](https://developers.google.com/edu/python/sorting)
+* [Sorting HowTo](https://docs.python.org/3/howto/sorting.html)
 
 ## Сравнение
 
@@ -88,7 +88,7 @@ print sorted(strs, key=len)         # ['d', 'bb', 'ccc', 'aaaa']
 
 Ключевая функция (имя которой передается в аргументе key) должна принимать 1 значение (value) и возвращать 1 значение (proxy value). По этому proxy value проходит сортировка.
 
-()[../images/sorted-key.png]
+![](../images/sorted-key.png)
 
 Отсортируем список строк БЕЗ учета регистра. Для этого будем сортировать строки, которые приведены к нижнему регистру.
 
