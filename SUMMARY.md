@@ -23,4 +23,5 @@
   * [Наследование](chapter_oop/5_inheritance.md)
   * [Контрольная работа](chapter_oop/kr_tasks_2.md)
   * [Задачи - черновики](chapter_oop/todo_tasks.md)
-  
+* Прикладные пакеты
+  * [GUI - tkinter](chapter_gui/draft.md)  
