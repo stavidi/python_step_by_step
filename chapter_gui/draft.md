@@ -16,6 +16,8 @@
    * [http://pygametutorials.wikidot.com/tutorials-basic] - OOP pygame tutorial
 * [https://www.python-course.eu/python_tkinter.php] - tkinter tutorial
    * [https://python-textbok.readthedocs.io/en/1.0/Introduction_to_GUI_Programming.html] - OOP tkinter tutorial
+   * [https://tkdocs.com/tutorial/index.html] - 
+   * [http://infohost.nmt.edu/tcc/help/pubs/tkinter/tkinter.pdf] - неплохая документация, но по старому Tkinker.
    * Саммерфилд, глава 13. Введение в программирование графического интерфейса
    * Лутц Программирование на Python, стр 89 и далее
    * Sammerfield, Pithon in Practice. Chapter 7 Graphical User Interface with Python and Tkinker
@@ -416,3 +418,41 @@ root = Tk()
 my_gui = Calculator(root)
 root.mainloop()
 ```
+
+## ООП с наследованием
+
+Напишем программу в настоящем ООП стиле с наследованием.
+
+Будем наследоваться от класса, который представляет отдельное окно.
+
+```python
+import tkinter as tk
+
+class Application(tk.Frame):
+    def __init__(self, master=None):
+        super().__init__(master)
+        self.master = master
+        self.pack()
+        self.create_widgets()
+
+    def create_widgets(self):
+        self.hi_there = tk.Button(self)
+        self.hi_there["text"] = "Hello World\n(click me)"
+        self.hi_there["command"] = self.say_hi
+        self.hi_there.pack(side="top")
+
+        self.quit = tk.Button(self, text="QUIT", fg="red",
+                              command=self.master.destroy)
+        self.quit.pack(side="bottom")
+
+    def say_hi(self):
+        print("hi there, everyone!")
+
+root = tk.Tk()
+app = Application(master=root)
+app.mainloop()
+```
+
+tkinter и tkinter.ttk содержат наборы классов-виджетов. tkinter простые, а tkinter.ttk - с использованием тем. Учим простые, наборы в основном совпадают, но есть уникальные виджеты в обоих наборах.
+
+От кого наследовать главное окно приложения? tkinter.Toplevel или tkinter.ttk.Frame.
