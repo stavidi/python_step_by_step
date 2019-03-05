@@ -8,15 +8,15 @@
 
 ## Ссылки
 
-* [https://pygame-zero.readthedocs.io/en/stable/index.html] pygame-zero
-  * [https://github.com/bennuttall/uno] - игра UNO на pygame-zero
-* [https://www.pygame.org/wiki/tutorials] - pygame
-   * [http://www.pygame.org/docs/ref/examples.html] - примеры игр
-   * [http://openbookproject.net/thinkcs/python/english3e/pygame.html]
-   * [http://pygametutorials.wikidot.com/tutorials-basic] - OOP pygame tutorial
-* [https://www.python-course.eu/python_tkinter.php] - tkinter tutorial
-   * [https://python-textbok.readthedocs.io/en/1.0/Introduction_to_GUI_Programming.html] - OOP tkinter tutorial
-   * [https://tkdocs.com/tutorial/index.html] - 
+* [pygame-zero](https://pygame-zero.readthedocs.io/en/stable/index.html)
+  * [UNO](https://github.com/bennuttall/uno) - игра UNO на pygame-zero
+* [PyGame Tutorial](https://www.pygame.org/wiki/tutorials)
+   * [примеры игр](http://www.pygame.org/docs/ref/examples.html)
+   * [http://openbookproject.net/thinkcs/python/english3e/pygame.html](http://openbookproject.net/thinkcs/python/english3e/pygame.html)
+   * [OOP PyGame Tutorial](http://pygametutorials.wikidot.com/tutorials-basic)
+* [https://www.python-course.eu/python_tkinter.php](https://www.python-course.eu/python_tkinter.php) - tkinter tutorial
+   * [OOP tkinter tutorial](https://python-textbok.readthedocs.io/en/1.0/Introduction_to_GUI_Programming.html)
+   * [https://tkdocs.com/tutorial/index.html](https://tkdocs.com/tutorial/index.html)
    * [http://infohost.nmt.edu/tcc/help/pubs/tkinter/tkinter.pdf] - неплохая документация, но по старому Tkinker.
    * Саммерфилд, глава 13. Введение в программирование графического интерфейса
    * Лутц Программирование на Python, стр 89 и далее
@@ -24,7 +24,7 @@
 
 ## Основные концепции GUI на примере tkinter
 
-[https://docs.python.org/3/library/tk.html] - документация
+[https://docs.python.org/3/library/tk.html](https://docs.python.org/3/library/tk.html) - документация
 
 * Входит в стандартную поставку.
 * Небольшой размер.
@@ -61,10 +61,10 @@ w.pack()                                    # окно изменяется по
 root.mainloop()                             # цикл обработки событий
 ```
 Linux, Gnome
-[!img/hello_tkinker.png]
+![Hello on Linux](img/hello_tkinker.png)
 
 Windows:
-[!img/hello_tkinker_windows.png]
+![Hello on Windows](img/hello_tkinker_windows.png)
 
 Окно декорируется (выглядит) согласно оконному менеджеру или стилю, принятому в операционной системе.
 
@@ -104,11 +104,11 @@ root.mainloop()
 
 Получим 
 
-[!img/label_with_image.png]
+![label_with_image.png](img/label_with_image.png)
 
 **Если хотим написать текст поверх картинки, указываем и картинку, и текст в одной и той же Label**
 
-[!img/text_on_top_of_image.png]
+![img/text_on_top_of_image.png](img/text_on_top_of_image.png)
 
 ```python
 import tkinter as tk
