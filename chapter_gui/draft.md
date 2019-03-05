@@ -61,10 +61,10 @@ w.pack()                                    # окно изменяется по
 root.mainloop()                             # цикл обработки событий
 ```
 Linux, Gnome
-![Hello on Linux](img/hello_tkinker.png)
+![Hello on Linux](img/hello_tkinter.png)
 
 Windows:
-![Hello on Windows](img/hello_tkinker_windows.png)
+![Hello on Windows](img/hello_tkinter_windows.png)
 
 Окно декорируется (выглядит) согласно оконному менеджеру или стилю, принятому в операционной системе.
 
@@ -131,7 +131,7 @@ root.mainloop()
 
 ** Шрифт и цвет **
 
-[!img/colored_labels.png]
+![img/colored_labels.png](img/colored_labels.png)
 
 ```python
 import tkinter as tk
@@ -157,7 +157,7 @@ root.mainloop()
 
 ** Динамическое изменение Label по таймеру**
 
-[!img/dynamic_label.png]
+![img/dynamic_label.png](img/dynamic_label.png)
 
 ```python
 import tkinter as tk
